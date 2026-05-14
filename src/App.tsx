@@ -1,6 +1,5 @@
-import firmaImg from "./assets/firma1.jpeg";
-
-const SIGNATURE_IMAGE_URL = firmaImg;
+const BASE_URL = "https://firmas.zeabur.app";
+const SIGNATURE_IMAGE_URL = `${BASE_URL}/firma1.jpeg`;
 
 export default function App() {
   return (
